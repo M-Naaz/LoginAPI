@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "a6d59de2-7cab-4dbe-aa56-6665da01d498",
+		"name": "loginAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "loginAPI",
+			"item": [
+				{
+					"name": "http://localhost:3000/api",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api"
+							]
+						},
+						"description": "loginAPI"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/posts",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJ1c2VybmFtZSI6Ik5hYXoiLCJtYWlsIjoibW9iYXNzZXJhLm5hYXpAa2lsb3dvdHQuY29tIn0sImlhdCI6MTYyMjE4MDkwMH0.gCXuLNtjAdp78ZtH6kPjd-i25iYghXfCLwVvh7x3hj",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/posts",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"posts"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
